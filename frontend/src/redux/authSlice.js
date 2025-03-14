@@ -74,11 +74,12 @@ export const register = (user) => async (dispatch) => {
             headers: { 'Content-Type': 'application/json' },
         });
 
-        dispatch(registerSuccess(response.data));
+        dispatch(registerSuccess(null));
         toast.success('Registration successful');
-        dispatch(logoutSuccess());
-        window.location.reload();
-        history.push('/signin');
+        history.push('/signin'); // Navigate first
+        setTimeout(() => {
+            window.location.reload(); // Reload after 2 second
+        }, 2000); 
     } catch (error) {
         const errorMessage = error.response?.data?.message || 'Registration failed';
         dispatch(registerFailure(errorMessage));
