@@ -1,0 +1,107 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem auto;
+    width: 90%;
+
+    li {
+        padding: 1rem;
+        flex: 1;
+
+        button {
+            margin: 5px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+.completed {
+    background-color: green;
+    color: white;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6); /* Dark background */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+}
+
+/* Modal Container */
+.modal {
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	width: 350px;
+	text-align: center;
+	animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Input Field */
+.modal-input {
+	width: 90%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+	outline: none;
+}
+
+/* Buttons */
+.modal-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.save-btn, .cancel-btn {
+	padding: 8px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.save-btn {
+	background: #007bff;
+	color: white;
+}
+
+.cancel-btn {
+	background: #ccc;
+	color: black;
+}
+
+.save-btn:hover {
+	background: #0056b3;
+}
+
+.cancel-btn:hover {
+	background: #999;
+}
+
+/* Animation */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: scale(0.9);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}

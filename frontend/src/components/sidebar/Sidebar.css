@@ -1,0 +1,19 @@
+.sidebar {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 100%;
+  padding: 1rem;
+  max-width: 15vw;
+  
+}
+.sidebar-container {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 100%;
+  padding: 1rem;
+  max-width: 15vw;
+  
+}
+.sidebar .list-item {
+  margin: 1rem 0;
+}/*# sourceMappingURL=Sidebar.css.map */

@@ -1,0 +1,21 @@
+{
+  "user": {
+    "id": 1,
+    "email": "dhamdhereshriram@gmail.com",
+    "name": "Shriram",
+    "role": "USER",
+    "isEmailVerified": false,
+    "createdAt": "2025-03-14T15:29:00.513Z",
+    "updatedAt": "2025-03-14T15:29:00.513Z"
+  },
+  "tokens": {
+    "access": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc0MTk2NzE4NywiZXhwIjoxNzQxOTY4OTg3LCJ0eXBlIjoiQUNDRVNTIn0.JJxo0EdUlHq4lQCuEkmCl1ZyPF9Mo5F4_8eHVvlWhMg",
+      "expires": "2025-03-14T16:16:27.049Z"
+    },
+    "refresh": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc0MTk2NzE4NywiZXhwIjoxNzQ0NTU5MTg3LCJ0eXBlIjoiUkVGUkVTSCJ9.huLX8cqKYQUCC4e_AOj3t_tF4p0XIGrl97N8Fge7W10",
+      "expires": "2025-04-13T15:46:27.049Z"
+    }
+  }
+}
