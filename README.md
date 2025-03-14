@@ -11,9 +11,7 @@ git clone https://github.com/ItachiSRD/Task-Management.git
 
 Install the dependencies:
 
-```bash
-yarn install
-```
+You only need docker to run this App
 
 Set the environment variables:
 
