@@ -17,15 +17,11 @@ yarn install
 
 Set the environment variables:
 
-```bash
-cp .env.example .env
-
-# open .env and modify the environment variables (if needed)
-```
+No need to worry about env variable all of them are set you just need to use docker to run the full application.
 
 ## Table of Contents
 
-- [RESTful API Node Server Boilerplate](#restful-api-node-server-boilerplate)
+- [TASK MANAGEMENT APP](#task-management-app)
   - [Quick Start](#quick-start)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
@@ -38,12 +34,6 @@ cp .env.example .env
   - [Validation](#validation)
   - [Authentication](#authentication)
   - [Authorization](#authorization)
-  - [Logging](#logging)
-  - [Linting](#linting)
-  - [Contributing](#contributing)
-  - [Inspirations](#inspirations)
-  - [License](#license)
-
 ## Features
 
 - **SQL database**: [PostgreSQL](https://www.postgresql.org) object data modeling using [Prisma](https://www.prisma.io) ORM
