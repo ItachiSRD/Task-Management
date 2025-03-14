@@ -76,6 +76,8 @@ export const register = (user) => async (dispatch) => {
 
         dispatch(registerSuccess(response.data));
         toast.success('Registration successful');
+        dispatch(logoutSuccess());
+        window.location.reload();
         history.push('/signin');
     } catch (error) {
         const errorMessage = error.response?.data?.message || 'Registration failed';

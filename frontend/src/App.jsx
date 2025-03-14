@@ -13,6 +13,7 @@ import { useSelector } from 'react-redux';
 
 function App() {
 	const { auth } = useSelector((state) => ({ ...state }));
+	console.log("HELLO", auth.currentUser);
 	return (
 		<div>
 			<Router>

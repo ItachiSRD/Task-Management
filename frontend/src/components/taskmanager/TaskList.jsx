@@ -7,9 +7,9 @@ import './tasklist.scss';
 const TaskList = () => {
 	const auth = useSelector((state) => state.auth);
 	const tasks = useSelector((state) => state.task);
-
+	const { allTasks, isLoading, error } = useSelector((state) => state.task);
 	const { currentUser } = auth;
-	const { allTasks } = tasks;
+	// const { allTasks } = tasks;
 
 	const dispatch = useDispatch();
 	

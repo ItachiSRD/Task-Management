@@ -30,8 +30,6 @@ services:
       - ./backend/.env
     depends_on:
       - postgres
-    volumes:
-      - ./backend:/app
     networks:
       - metac_network
     
@@ -43,8 +41,6 @@ services:
       - "5173:5173"
     env_file:
       - ./frontend/.env
-    volumes:
-      - ./frontend:/app
     networks:
       - metac_network
 

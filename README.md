@@ -1,5 +1,18 @@
 # TASK MANAGEMENT APP
 
+MeTac is a full-stack task management application with a Dockerized backend, frontend, and PostgreSQL database. This document provides the essential Docker commands to build, run, and manage the project.
+
+
+---
+
+## Prerequisites
+
+- [Docker](https://www.docker.com/) installed on your machine
+- [Docker Compose](https://docs.docker.com/compose/) installed
+
+---
+
+
 ## Quick Start
 
 Clone the repo:
@@ -49,9 +62,13 @@ No need to worry about env variable all of them are set you just need to use doc
 
 ## Commands
 
-Running locally:
+### 1. Build and Run All Containers
+
+From the project root directory (where your `docker-compose.yml` is located), run:
+
 
 ```bash
+cd Task-Management
 sudo docker compose up --build
 ```
 
