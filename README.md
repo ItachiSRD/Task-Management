@@ -2,6 +2,7 @@
 
 MeTac is a full-stack task management application with a Dockerized backend, frontend, and PostgreSQL database. This document provides the essential Docker commands to build, run, and manage the project.
 
+### Tests Have not been implemented for everything due to time constraints
 
 ---
 
